@@ -12,18 +12,14 @@
 
     <link rel="stylesheet" href="style/main.css">
     <script>
-        function wait() {
-            while (true) {
-                setTimeout(cursor, 1000)
-            }
-        }
-        function cursor() {
-            const blink = document.getElementById("blink").innerHTML = "Hello World";
-            blink.classList.toggle("d-none");
+        while (true) {
+            setTimeout(() => {
+                    document.getElementById("blink").classList.toggle("d-none");
+                }, 1000)
         }
     </script>
   </head>
-  <body onload="wait()">
+  <body>
     <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
         <h1 class="display-5 fw-bold"><i class="fas fa-chevron-right" aria-hidden="true"></i>Ned Per<i class="far fa-window-minimize" id="blink"></i></h1>
