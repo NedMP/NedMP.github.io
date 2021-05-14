@@ -7,3 +7,14 @@ body {
     justify-content: center;
     align-items: center;
 }
+
+@keyframes blink {
+    from {opacity: 100;}
+    to {opacity: 0;}
+}
+
+#blink {
+    animation-name: blink;
+    animation-duration: 1s;
+    opacity: 100;
+}
