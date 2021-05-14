@@ -11,11 +11,22 @@
     <title>Ned Perkins</title>
 
     <link rel="stylesheet" href="style/main.css">
+    <script>
+        function wait() {
+            while (true) {
+                setTimeout(cursor(), 1000)
+            }
+        }
+        function cursor() {
+            const blink = document.getElementById("blink").innerHTML = "Hello World";
+            blink.classList.toggle("d-none");
+        }
+    </script>
   </head>
-  <body>
+  <body onload="wait()">
     <div class="p-5 mb-4 bg-light rounded-3">
       <div class="container-fluid py-5">
-        <h1 class="display-5 fw-bold"><i class="fas fa-chevron-right" aria-hidden="true"></i>Ned Perkins<i class="far fa-window-minimize"></i></h1>
+        <h1 class="display-5 fw-bold"><i class="fas fa-chevron-right" aria-hidden="true"></i>Ned Per<i class="far fa-window-minimize" id="blink"></i></h1>
         <p class="col-md-8 fs-4">Under construction...</p>
         <a class="btn btn-primary" href="https://twitter.com/nedprks" role="button"><i class="fab fa-twitter"></i>Twitter</a>
       </div>
