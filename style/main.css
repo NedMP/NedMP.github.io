@@ -20,7 +20,3 @@ span.blink {
     animation-duration: 1s;
     animation-iteration-count: infinite;
 }
-
-h1.fivehund {
-    width:500px;
-}
