@@ -16,5 +16,4 @@ body {
 .blink {
     animation-name: blink;
     animation-duration: 1s;
-    opacity: 1;
 }
