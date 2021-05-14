@@ -9,12 +9,12 @@ body {
 }
 
 @keyframes blink {
-    from {opacity: 100;}
-    to {opacity: 0;}
+    0% {opacity: 1;}
+    100% {opacity: 0;}
 }
 
 #blink {
     animation-name: blink;
     animation-duration: 1s;
-    opacity: 100;
+    opacity: 1;
 }
