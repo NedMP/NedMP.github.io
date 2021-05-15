@@ -1,6 +1,4 @@
-const root = document.getElementById('root');
-
-class App extends React.Component {
+class Nav extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -56,4 +54,4 @@ class App extends React.Component {
 	}
 }
 
-ReactDOM.render(<App />, root);
+export default Nav
