@@ -29,14 +29,11 @@ class App extends React.Component {
 							class="navbar-toggler"
 							type="button"
 							data-bs-toggle="collapse"
-							data-bs-target="#navbarNavAltMarkup"
-							aria-controls="navbarNavAltMarkup"
-							aria-expanded="false"
-							aria-label="Toggle navigation"
+							data-bs-target="#navbar"
 						>
 							<span class="navbar-toggler-icon" />
 						</button>
-						<div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+						<div class="collapse navbar-collapse" id="navbar">
 							<div class="navbar-nav ms-lg-auto">
 								<a class="nav-link active" id="home" onClick={this.homePage}>
 									Home
