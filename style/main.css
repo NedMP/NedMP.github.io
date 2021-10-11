@@ -23,4 +23,5 @@ a.nav-link {
 
 section#borked {
     overflow: hidden;
+    display: none;
 }
