@@ -20,3 +20,7 @@ span.blink {
 a.nav-link {
     cursor: pointer;
 }
+
+section {
+    overflow: hidden;
+}
