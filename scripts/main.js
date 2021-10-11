@@ -41,6 +41,12 @@ class App extends React.Component {
 								<a class="nav-link" id="about" onClick={this.aboutPage}>
 									About
 								</a>
+								<a class="nav-link" href="https://www.linkedin.com/in/nedprks/">
+									<i class="fab fa-linked-in"></i>
+								</a>
+								<a class="nav-link" href="https://www.instagram.com/nedprks/">
+									<i class="fab fa-instagram"></i>
+								</a>
 								<a class="nav-link" href="https://twitter.com/nedprks">
 									<i class="fab fa-twitter"></i>
 								</a>
