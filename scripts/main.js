@@ -42,7 +42,7 @@ class App extends React.Component {
 									About
 								</a>
 								<a class="nav-link" href="https://www.linkedin.com/in/nedprks/">
-									<i class="fab fa-linked-in"></i>
+									<i class="fab fa-linkedin-in"></i>
 								</a>
 								<a class="nav-link" href="https://www.instagram.com/nedprks/">
 									<i class="fab fa-instagram"></i>
