@@ -21,7 +21,6 @@ a.nav-link {
     cursor: pointer;
 }
 
-section#borked {
-    overflow: hidden;
-    display: none;
+.borked {
+    height: 100vh;
 }
