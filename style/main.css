@@ -23,5 +23,9 @@ a.nav-link {
 
 .borked {
     height: 100vh;
-    background: red;
+    background: url(../imgs/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
 }
